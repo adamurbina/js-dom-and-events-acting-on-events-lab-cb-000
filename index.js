@@ -14,6 +14,7 @@ function retrieveEmployeeInformation() {
 function addNewElementAsLi() {
   const employee = retrieveEmployeeInformation();
   document.querySelector('ul').append(employee);
+  document.querySelector('input').value = '';
 }
 
 function addNewLiOnClick() {
