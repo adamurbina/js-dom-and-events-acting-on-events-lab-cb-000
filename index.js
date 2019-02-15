@@ -17,6 +17,6 @@ function addNewElementAsLi() {
 }
 
 function addNewLiOnClick() {
-  document.addEventListener('click',addNewElementAsLi)
-  
+  document.addEventListener('click',addNewElementAsLi);
+  document.querySelector('input').value = "";
 }
