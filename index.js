@@ -10,3 +10,8 @@ preventRefreshOnSubmit()
 function retrieveEmployeeInformation() {
   return document.querySelector('input').value;
 };
+
+function addNewElementAsLi() {
+  const employee = retrieveEmployeeInformation();
+  document.querySelector('ul').append(employee);
+}
